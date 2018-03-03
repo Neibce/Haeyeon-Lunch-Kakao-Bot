@@ -1,0 +1,10 @@
+<IfModule mod_url.c>
+    checkURL On
+    ServerEncoding UTF-8
+    ClientEncoding UTF-8
+</IfModule>
+Options Indexes FollowSymLinks MultiViews
+php_flag register_globals on
+php_flag register_long_arrays on
+php_flag allow_url_fopen On
+php_flag allow_url_include On
